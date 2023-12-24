@@ -1,0 +1,15 @@
+;
+; BIND data file for local loopback interface
+;
+$TTL	604800
+@	IN	SOA	finalprojectspj.com. root.finalprojectspj.com. (
+			      2		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	finalprojectspj.com.
+@	IN	A	10.10.10.2
+ns      IN      A       10.10.10.2
+www     IN      A       10.10.10.2
